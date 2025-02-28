@@ -1,8 +1,8 @@
-console.log("Exercice1")
+// console.log("Exercice1")
 
-let nom = prompt("Entrer votre Nom")
-const age = prompt("Entrer votre age")
-console.log("Bienvenue Mr/Mm", nom, "agé de", age, "ans")
+// let nom = prompt("Entrer votre Nom")
+// const age = prompt("Entrer votre age")
+// console.log("Bienvenue Mr/Mm", nom, "agé de", age, "ans")
 
 
 
