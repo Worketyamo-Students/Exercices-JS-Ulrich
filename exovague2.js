@@ -18,15 +18,15 @@
 // console.log("Exercice1-3")
 
 // function convertToUpperCase(x){
-//     return console.log(x.ToUpperCase)
+//     x = String(x)
+//     return console.log(x.toUpperCase())
 // }
 // convertToUpperCase("bonjour")
-
 
 // console.log("Exercice2-1")
 
 // function calculateRectangleArea(h, w){
-//     return console.log("l'aire est: ", h * w, "cm²")
+//  return console.log("l'aire est: ", h * w, "cm²")
 // }
 // calculateRectangleArea(10, 5)
 
@@ -45,14 +45,16 @@
 
 // console.log("Exercice2-3")
 
-// function findElement([a,b,c,d], x){
-//     if (x == a || x == b || x == c || x == d){
-//         console.log("True")
-//     } else{
-//         console.log("False")
+// function findElement(tableau, x){
+//     for(let e = 0; e<tableau.length; e++){
+//         if(tableau[e]==x){
+//             return console.log("true")
+//         }
 //     }
+//     return false
 // }
-// findElement([1, "nom", "bonjour", 4], "bonjour")
+// let tableau = [1, "nom", "bonjour", 4]
+// findElement(tableau , "bonjour")
 
 
 // console.log("Exercice3-1")
@@ -64,7 +66,7 @@
 //         return fibonacci(n - 1) + fibonacci(n -2)
 //     }
 // }
-// console.log(fibonacci(15))
+// console.log(fibonacci(7))
 
 // console.log("Exercice3-2")
 
